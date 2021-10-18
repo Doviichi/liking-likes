@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- css link -->
+    <link rel="stylesheet" href="likinglikes.css">
+    <title>Liking Likes</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Network</h1>
+        </div>
+        <h1>Your Feed</h1>
+    </header>
+    <main>
+        <div class="row">
+            <!-- profile box -->
+            <div class="profile-con">
+                <img src="images/user-circle.png" alt="profile pic">
+                <a href="https://avatar.com">add an avatar</a>
+                <h1>James Doe</h1>
+            </div>
+            <!-- likes boxes -->
+            <div class="column">
+                <!-- box 1 -->
+                <div class="feed-con">
+                    <div class="post-flex"><h1>Neil M</h1>
+                    <p id="neilLike">0 like(s)</p>
+                    <button class="button" onclick="like();">Like</button></div>
+                    <div><p>I just set up this new Discord bot, let me know what you all think.<a href="https://discord.com">link</a></p></div>
+                </div>
+                <!-- box 2 -->
+                <div class="feed-con">
+                    <div class="post-flex">
+                        <h1>Nichole K</h1>
+                        <p id="nichole">0 like(s)</p>
+                        <button class="button" onclick="nicholeLike();">Like</button>
+                    </div>
+                    <div><p>Just finished my <a href="https://marvel.com">next comic</a>, check it out.</p></div>
+                </div>
+                <!-- box 3 -->
+                <div class="feed-con">
+                    <div class="post-flex">
+                        <h1>Jim R</h1>
+                        <p id="jim">0 like(s)</p>
+                        <button class="button" onclick="jimLike();">Like</button>
+                    </div>
+                    <div><p>I can't stop listening to the <a href="https://spotify.com">new album.</a> Who else is liking it?</p></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="likinglikes.js"></script>
+</body>
+</html>
